@@ -3,6 +3,7 @@
     "name": "YouWatch",
     "description": "It's here to help you enjoy watching Youtube",
     "version": "1.0",
+    "Author": "Salahaddin Ebrahimipour"
     "permissions": [
         "tabs"
     ],
