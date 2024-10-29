@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "YouWatch",
+    "description": "It's here to help you enjoy watching Youtube",
+    "version": "1.0",
+    "permissions": [
+        "tabs"
+    ],
+    "host_permissions": [
+        "*://*.youtube.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "128": "icon.png"
+    },
+    "action": {
+        "default_icon": "icon.png"
+    }
+}
